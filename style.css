@@ -13,7 +13,7 @@ body{
 }
 
 .foto {
-    width: 20%;
+    width: 30%;
     height: auto;
 }
 
@@ -39,4 +39,32 @@ body{
 .apresentacao__conteudo__texto{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.github{
+  font-family: arial;
+  color: #ffffff ;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #de7c7c;
+  box-shadow: 1px 1px 1px #f9bebe;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #a33838;
+  background: #ee6363;
+  background: linear-gradient(to top, #ee6363, #cf4646);
+
+} 
+
+.instagram {
+  font-family: arial;
+  color: #ffffff ;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #de7c7c;
+  box-shadow: 1px 1px 1px #f9bebe;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #a33838;
+  background: #ee6363;
+  background: linear-gradient(to top, #ee6363, #cf4646);
+
 }
