@@ -14,7 +14,7 @@ body{
 
 .foto {
     width: 450px;
-    border: 3px  solid #fd2222;
+    border: 3px  solid #fb00ff;
     border-radius: 5%;
     align-items: center;
   
@@ -27,7 +27,7 @@ body{
 
   }
 .titulo-destaque{
-    color: #fd2222;
+    color: #fb00ff;
 }
 
 .apresentacao{
@@ -37,7 +37,7 @@ body{
     justify-content: space-between;
 }
 .qualidade {
-  color: #fd2222
+  color: #fb00ff;
 }
 
 .apresentacao__conteudo{
@@ -78,7 +78,7 @@ body{
     gap: 16px;
     background-color: #22d5fd00;  
     width: 200px;
-    border: 2px  solid #fd2222;
+    border: 2px  solid #fb00ff;
     text-align: center;
     border-radius: 10px;
     font-size: 20px;
@@ -89,10 +89,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     
 
-}
+} 
+  .apresentacao__links__link:hover{
+    background-color: rgb(89, 88, 88);
+    color: #fb00ff;
+  }
+
   .png {
     width: 15%;
-    filter: invert(100%);
     display: flex;
     justify-self: center;
+    filter: hue-rotate(120deg);
   }
