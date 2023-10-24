@@ -41,30 +41,38 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.github{
-  font-family: arial;
-  color: #ffffff ;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #de7c7c;
-  box-shadow: 1px 1px 1px #f9bebe;
-  padding: 10px 25px;
-  border-radius: 10px;
-  border: 2px solid #a33838;
-  background: #ee6363;
-  background: linear-gradient(to top, #ee6363, #cf4646);
+.apresentacao__links{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 100px;
+}
 
+.github {
+  
+  font-family: 'Krona One';
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #22d5fd79;
+  box-shadow: 1px 1px 1px #02495979 ;
+  padding: 10px 43.725px;
+  border-radius: 10px;
+  border: 2px solid #1e4e59;
+  background: #22D4FD;
+  background: linear-gradient(to top, #22d5fd63, #22D4FD);
+  
 } 
-
+  
 .instagram {
-  font-family: arial;
-  color: #ffffff ;
+  
+  font-family: 'Krona One';
+  color: #ffffff;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #de7c7c;
-  box-shadow: 1px 1px 1px #f9bebe;
-  padding: 10px 25px;
+  text-shadow: 1px 1px 0px #22d5fd79;
+  box-shadow: 1px 1px 1px #02495979 ;
+  padding: 10px 28px;
   border-radius: 10px;
-  border: 2px solid #a33838;
-  background: #ee6363;
-  background: linear-gradient(to top, #ee6363, #cf4646);
-
+  border: 2px solid #1e4e59;
+  background: #22D4FD;
+  background: linear-gradient(to top, #22d5fd63, #22D4FD);
 }
