@@ -1,91 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
-    color: #F6F6F6;
+    color: #ffffff;
 }
 
 .foto {
-    width: 30%;
-    height: auto;
+    width: 350px;
     border: 3px  solid #fd2222;
     border-radius: 10%;
-    
+    align-items: center;
     
 }
+  .redes {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
 
+  }
 .titulo-destaque{
     color: #fd2222;
 }
 
 .apresentacao{
-    margin: 10% 20%;
+    margin: 3% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.qualidade {
+  color: #fd2222
+}
+
 .apresentacao__conteudo{
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 40px;
     
     
-}
-  .qualidade {
-    color: #fd2222
-  }
+}    
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
-}
+  font-size: 36px;
+  font-family: 'Krona One', sans-serif;
+}  
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    
-}
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  
+}  
 
 .apresentacao__links{
   display: flex;
-  flex-direction: row;
-  justify-content:center;
-  gap: 40px;
-}
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  
 
-.github {
-  
-  font-family: 'Krona One';
-  color: #ffffff;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #fd2222;
-  box-shadow: 1px 1px 1px hsla(0, 100%, 50%, 0.475) ;
-  padding: 10px 43.725px;
-  border-radius: 10px;
-  border: 2px solid #ff8e8e8c;
-  background: #fd2222;
-  background: linear-gradient(to top, #fd222263, #fd2222);
-  
-} 
-  
-.instagram {
-  
-  font-family: 'Krona One';
-  color: #ffffff;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #fd2222;
-  box-shadow: 1px 1px 1px hsla(0, 100%, 50%, 0.475) ;
-  padding: 10px 28px;
-  border-radius: 10px;
-  border: 2px solid #ff8e8e8c;
-  background: #fd2222;
-  background: linear-gradient(to top, #fd222263, #fd2222);
+}  
+
+.apresentacao__links__link{
+    background-color: #22d5fd00;  
+    width: 280px;
+    border: 2px  solid #fd2222;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 19px 0px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
 }
+  
