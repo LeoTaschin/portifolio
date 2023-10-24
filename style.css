@@ -15,14 +15,14 @@ body{
 .foto {
     width: 30%;
     height: auto;
-    border: 3px  solid #22D4FD;
+    border: 3px  solid #fd2222;
     border-radius: 10%;
     
     
 }
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: #fd2222;
 }
 
 .apresentacao{
@@ -40,7 +40,7 @@ body{
     
 }
   .qualidade {
-    color: #22D4FD
+    color: #fd2222
   }
 
 .apresentacao__conteudo__titulo{
@@ -66,13 +66,13 @@ body{
   font-family: 'Krona One';
   color: #ffffff;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #22d5fd;
-  box-shadow: 1px 1px 1px #00d0ff79 ;
+  text-shadow: 1px 1px 0px #fd2222;
+  box-shadow: 1px 1px 1px hsla(0, 100%, 50%, 0.475) ;
   padding: 10px 43.725px;
   border-radius: 10px;
-  border: 2px solid #1e4e59;
-  background: #22D4FD;
-  background: linear-gradient(to top, #22d5fd63, #22D4FD);
+  border: 2px solid #ff8e8e8c;
+  background: #fd2222;
+  background: linear-gradient(to top, #fd222263, #fd2222);
   
 } 
   
@@ -81,11 +81,11 @@ body{
   font-family: 'Krona One';
   color: #ffffff;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #22d5fd;
-  box-shadow: 1px 1px 1px #02495979 ;
+  text-shadow: 1px 1px 0px #fd2222;
+  box-shadow: 1px 1px 1px hsla(0, 100%, 50%, 0.475) ;
   padding: 10px 28px;
   border-radius: 10px;
-  border: 2px solid #1e4e59;
-  background: #22D4FD;
-  background: linear-gradient(to top, #22d5fd63, #22D4FD);
+  border: 2px solid #ff8e8e8c;
+  background: #fd2222;
+  background: linear-gradient(to top, #fd222263, #fd2222);
 }
