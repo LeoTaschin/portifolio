@@ -130,4 +130,7 @@ body{
     filter: hue-rotate(120deg);
   }
 
-  
+  .sobre_mim{
+    font-size: 36px;
+    color: #ffffff;
+  }
