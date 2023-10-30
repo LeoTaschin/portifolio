@@ -6,13 +6,9 @@
 }
 
 
-cores{
-  cor-primaria = #151515
-  cor-secundaria = #fb00ff
-  cor-terciaria = #FFF5E0
-}
+
 body{
-    /* height: 100vh; */
+    height: 100vh;
     box-sizing: border-box;
     background-color: #151515;
     color: #ffffff;
@@ -20,7 +16,7 @@ body{
 
 .foto {
     width: 450px;
-    border: 3px  sog
+    border: 3px;
     border-style: groove;
     border-radius: 5%;
     align-items: center;
@@ -34,33 +30,15 @@ body{
 
   }
 .titulo-destaque{
-    color: 
+    color: #fb00ff
 }
 
 .apresentacao{
-    margin: 5.4% 15%;
+    margin: 3% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.header{
-  margin: 2% 0% 0% 15%;
-}
-
-.header__menu{
-  display: flex;
-  gap: 80px;
-}
-
-.header__link{
-  color: #fb00ff;
-  font-size: 24px;
-  font-weight: 600;
-  font-family:'Montserrat', sans-serif;
-  text-decoration: none;
- }
-
 .qualidade {
   color: #fb00ff;
 }
@@ -97,16 +75,6 @@ body{
 
 }  
 
-.footer{
-  padding: 24px;
-  color: #000;
-  background-color: #fb00ff;
-  text-align: center;
-  font-size: 24px;
-  font-family:'Montserrat', sans-serif;;
-  font-weight: 400;
-}
-
 .apresentacao__links__link{
     display: flex;
     justify-content: center;
@@ -135,9 +103,5 @@ body{
     display: flex;
     justify-self: center;
     filter: hue-rotate(120deg);
-  }
 
-  .sobre_mim{
-    font-size: 36px;
-    color: #ffffff;
-  }
+}
